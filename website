@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website</title>
+    <style>
+        .banner img {width: 100%; display: block; align-content: center;}
+        .section1 h1 {color: red;}
+        dt {color: blue;}
+        .content {background-color: white;}
+        table h1 {color: white;}
+        table p {color: white;}
+        footer {display: block; align-self: center;}
+    </style>
+</head>
+<body>
+<div class="banner">
+    <img src="banner.jpg" alt="Banner">
+</div>
+<section class="section1">
+<h1>RMIT is a global university of technology, design and enterprise</h1>
+<ul>
+    <li>Top 200 universities worldwide (QS World University Ranking 2021)</li>
+    <li>12,456 industry placements for students in 2022</li>
+    <li>90,000+ students from 194 different countries studying at RMIT</li>
+</ul>
+<h1>Enjoy a global experience</h1>
+<dl>
+    <dt>Australia</dt>
+        <dd>Melbourne city campus</dd>
+        <dd>Bundoora campus</dd>
+        <dd>Brunswick campus</dd>
+    <dt>Vietnam</dt>
+        <dd>Saigon South campus</dd>
+        <dd>Hanoi campus</dd>
+    <dt>Spain</dt>
+        <dd>Barcelona campus</dd>
+</dl>
+</section>
+<table>
+    <tr>
+    <h1>Explore your study options</h1>
+    <p>There are many different paths you can take on your higher education journey.</p>
+    </tr>
+    <section class="content">
+    <tr>
+        <td><img src="programs.png" alt="programs"></td>
+        <td><img src="parents.png" alt="parents"></td>
+        <td><img src="students.png" alt="students"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.rmit.edu.vn/study-at-rmit">Find a program or course</a></td>
+        <td><a href="https://www.rmit.edu.vn/about-us/rmit-vn-parents">Information for parents</a></td>
+        <td><a href="https://www.rmit.edu.vn/study-at-rmit/english-language-programs">Learn English</a></td>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>Browse by interest area</li>
+                <li>Undergraduate programs</li>
+                <li>Postgraduate programs</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Accomodation</li>
+                <li>Life on campus</li>
+                <li>Fees</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>English programs</li>
+                <li>Corporate English</li>
+                <li>Scholarships</li>
+            </ul>
+        </td>
+    </tr>
+    </section>
+</table>
+<footer>
+    <img src="logo.png" alt="logo">
+</footer>
+
+
+
+
+</body>
+</html>
